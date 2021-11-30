@@ -10,25 +10,22 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace Booksdatabase.Controllers
 {
-    public class HomeController : Controller
+    public class BooksController: Controller
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public BooksController(ILogger<HomeController> logger)
         {
             _logger = logger;
         }
 
-        public IActionResult Index()
+        [Authorize]
+        public IActionResult Booklist()
         {
             return View();
         }
 
-        [Authorize]
-        public IActionResult Privacy()
-        {
-            return View();
-        }
+       
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
