@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BooksAppWebFinalSubmission.Data;
 using BooksAppWebFinalSubmission.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BooksAppWebFinalSubmission.Controllers
 {
+    [Authorize]
     public class Mybook : Controller
     {
         private readonly ApplicationDbContext _context;
