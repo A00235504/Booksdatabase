@@ -2,12 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <UserSecretsId>aspnet-Booksdatabase-0A24C36D-D543-4E87-98C8-A93DA21F599A</UserSecretsId>
+    <UserSecretsId>aspnet-BooksAppWebFinalProject-683D4404-E91A-4511-8124-09BFCAA41401</UserSecretsId>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Remove="Views\BooksListPage\" />
-  </ItemGroup>
   <ItemGroup>
     <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
   </ItemGroup>
@@ -20,7 +17,4 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.11" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Views\Books\" />
-  </ItemGroup>
 </Project>
