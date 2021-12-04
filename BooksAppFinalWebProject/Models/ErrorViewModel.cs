@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BooksAppWebFinalProject.Models
+namespace BooksAppFinalWebProject.Models
 {
     public class ErrorViewModel
     {

@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <UserSecretsId>aspnet-BooksAppWebFinalProject-683D4404-E91A-4511-8124-09BFCAA41401</UserSecretsId>
+    <UserSecretsId>aspnet-BooksAppFinalWebProject-0DCE9A63-FAB6-4223-93E8-F41B9E1B853E</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
