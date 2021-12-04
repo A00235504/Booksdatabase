@@ -5,9 +5,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using BooksAppFinalWebProject.Models;
+using BooksAppWebFinalSubmission.Models;
 
-namespace BooksAppFinalWebProject.Controllers
+namespace BooksAppWebFinalSubmission.Controllers
 {
     public class HomeController : Controller
     {

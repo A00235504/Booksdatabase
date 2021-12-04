@@ -1,10 +1,11 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using BooksAppWebFinalSubmission.Models;
 
-namespace BooksAppFinalWebProject.Data
+namespace BooksAppWebFinalSubmission.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
@@ -12,5 +13,6 @@ namespace BooksAppFinalWebProject.Data
             : base(options)
         {
         }
+        public DbSet<BooksAppWebFinalSubmission.Models.Books> Books { get; set; }
     }
 }

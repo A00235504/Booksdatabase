@@ -3,8 +3,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:51823",
-      "sslPort": 44315
+      "applicationUrl": "http://localhost:64837",
+      "sslPort": 44330
     }
   },
   "profiles": {
@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "BooksAppFinalWebProject": {
+    "BooksAppWebFinalSubmission": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,

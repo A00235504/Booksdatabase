@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace BooksAppFinalWebProject.Data.Migrations
+namespace BooksAppWebFinalSubmission.Data.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {
